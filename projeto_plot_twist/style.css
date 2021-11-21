@@ -1,0 +1,68 @@
+* {
+    font-family:'Roboto', sans-serif; ;
+}
+
+body{
+    width : 100%;
+}
+
+#message {
+    position: absolute;
+    font-size: 3em;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%, -50%);
+    padding-bottom: 22px;
+}
+
+.arrow-div {
+    position: absolute;
+    left: 49.6%;
+    top: 33%;
+    padding-top: 2em;
+    transform: translate(-50%, -50%);
+    width: 48px;
+    height: 48px;
+}
+
+#arrow-img {
+    width: 148%;
+}
+
+#button {
+    position: absolute;
+    left: 48.8%;
+    top: 40%;
+    padding: 2em;
+    border-radius: 100%;
+    border: 2px solid black;;
+    background-color: black;
+}
+
+#button:hover {
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+
+.disappear {
+    display: none;
+}
+
+@media screen and (max-width: 480px) {
+
+    #message {
+        left: 52%;
+    }
+
+    #button {
+        position: absolute;
+        left: 45%;
+        top: 41%;
+        padding: 2em;
+        border-radius: 100%;
+        border: 2px solid black;;
+        background-color: black;
+    }
+
+}
